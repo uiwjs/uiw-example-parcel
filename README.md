@@ -1,4 +1,4 @@
-This project is build on @parcel-bundler.
+This project is build on [@parcel-bundler](https://github.com/parcel-bundler/parcel).
 
 ## Modify Content
 
