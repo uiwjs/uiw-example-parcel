@@ -11,12 +11,8 @@ This project is build on [@parcel-bundler](https://github.com/parcel-bundler/par
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-+    "uiw": "^3.1.0"
-  },
-  "devDependencies": {
-+    "less": "^3.0.1",
-    ...
-  },
++    "uiw": "^4.6.13"
+  }
 }
 ```
 

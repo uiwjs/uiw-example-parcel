@@ -26,8 +26,8 @@
     "postcss-modules": "1.5.0"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "uiw": "^4.0.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "uiw": "^4.6.14"
   }
 }
