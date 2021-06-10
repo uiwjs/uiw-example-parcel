@@ -3,7 +3,7 @@ This project is build on [@parcel-bundler](https://github.com/parcel-bundler/par
 ## Modify Content
 
 
-[package.json](https://github.com/uiw-react/uiw-example-parcel/blob/5c13ae225eabb509ba1d67871a42028a51d343e9/package.json#L13-L28)
+[package.json](https://github.com/uiwjs/uiw-example-parcel/blob/5c13ae225eabb509ba1d67871a42028a51d343e9/package.json#L13-L28)
 
 ```diff
 {
@@ -16,7 +16,7 @@ This project is build on [@parcel-bundler](https://github.com/parcel-bundler/par
 }
 ```
 
-[src/App.js](https://github.com/uiw-react/uiw-example-parcel/blob/5c13ae225eabb509ba1d67871a42028a51d343e9/src/App.js#L2)
+[src/App.js](https://github.com/uiwjs/uiw-example-parcel/blob/5c13ae225eabb509ba1d67871a42028a51d343e9/src/App.js#L2)
 
 ```diff
 import React, { Component } from 'react';
