@@ -4,7 +4,7 @@
   "description": "Using @uiwjs in @parcel-bundler.",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
