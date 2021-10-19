@@ -2,10 +2,9 @@
   "name": "uiw-example-parcel",
   "version": "1.0.0",
   "description": "Using @uiwjs in @parcel-bundler.",
-  "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development parcel src/index.html",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url ./"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,19 +14,14 @@
     "url": "https://github.com/uiwjs/uiw-example-parcel"
   },
   "devDependencies": {
-    "autoprefixer": "9.8.8",
-    "babel-core": "6.26.3",
-    "babel-plugin-external-helpers": "6.22.0",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-react": "6.24.1",
-    "cross-env": "7.0.3",
-    "less": "4.1.2",
-    "parcel-bundler": "1.12.4",
-    "postcss-modules": "3.2.2"
+    "@parcel/transformer-less": "2.0.0",
+    "@parcel/transformer-svg-react": "^2.0.0",
+    "parcel": "2.0.0"
   },
   "dependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "@parcel/transformer-react-refresh-wrap": "2.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "uiw": "^4.6.14"
   }
 }
