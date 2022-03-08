@@ -1,6 +1,8 @@
 uiw-example-parcel
 ===
 
+[![CI](https://github.com/uiwjs/uiw-example-parcel/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/uiw-example-parcel/actions/workflows/ci.yml)
+
 This project is build on [@parcel-bundler](https://github.com/parcel-bundler/parcel).
 
 ## Modify Content
