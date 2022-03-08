@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'uiw';
 import Markdown from '@uiw/react-markdown-preview';
+import GitHubCorners from '@uiw/react-github-corners';
 import Logo from './logo.svg';
 import './App.css';
 import mdStr from '../README.md';
@@ -8,6 +9,10 @@ import mdStr from '../README.md';
 export default function App() {
   return (
     <div className="App">
+      <GitHubCorners
+        target="__blank"
+        href="https://github.com/uiwjs/uiw-example-parcel"
+      />
       <header className="App-header">
         <Logo className="App-logo" height="60" width="60" viewBox="0 0 20 20" />
         <h1 className="App-title">Welcome to React</h1>
