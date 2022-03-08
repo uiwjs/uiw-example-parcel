@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button } from 'uiw';
+import Markdown from '@uiw/react-markdown-preview';
 import Logo from './logo.svg';
 import './App.css';
+import mdStr from '../README.md';
 
 export default function App() {
   return (
@@ -19,6 +21,7 @@ export default function App() {
       <Button type="danger">错误按钮</Button>
       <Button type="light">亮按钮</Button>
       <Button type="dark">暗按钮</Button>
+      <Markdown source={mdStr} style={{ textAlign: 'left', maxWidth: 420, margin: '0 auto', padding: 10 }}/>
     </div>
   );
 };

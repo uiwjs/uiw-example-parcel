@@ -1,6 +1,7 @@
 {
   "extends": "@parcel/config-default",
   "transformers": {
+    "*.md": [ "parcel-transformer-markdown" ],
     "*.svg": ["@parcel/transformer-svg-react"],
     "*.{jpg,png}": ["@parcel/transformer-raw"],
     "*.{js,mjs,jsx,cjs,ts,tsx}": [

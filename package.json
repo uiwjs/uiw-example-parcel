@@ -14,14 +14,16 @@
     "url": "https://github.com/uiwjs/uiw-example-parcel"
   },
   "devDependencies": {
-    "@parcel/transformer-less": "2.0.0",
-    "@parcel/transformer-svg-react": "2.0.0",
-    "parcel": "2.0.0"
+    "@parcel/transformer-less": "~2.3.2",
+    "@parcel/transformer-svg-react": "~2.3.2",
+    "@parcel/transformer-react-refresh-wrap": "~2.3.2",
+    "parcel-transformer-markdown": "~2.1.0",
+    "parcel": "~2.3.2"
   },
   "dependencies": {
-    "@parcel/transformer-react-refresh-wrap": "2.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "uiw": "4.9.7"
+    "@uiw/react-markdown-preview": "~3.5.1",
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2",
+    "uiw": "~4.13.7"
   }
 }

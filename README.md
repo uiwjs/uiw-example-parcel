@@ -1,3 +1,6 @@
+uiw-example-parcel
+===
+
 This project is build on [@parcel-bundler](https://github.com/parcel-bundler/parcel).
 
 ## Modify Content
@@ -48,3 +51,7 @@ class App extends Component {
 
 export default App;
 ```
+
+### License
+
+Licensed under the MIT License
