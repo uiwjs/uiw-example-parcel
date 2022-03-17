@@ -2,13 +2,15 @@ import React from 'react';
 import { Button } from 'uiw';
 import Markdown from '@uiw/react-markdown-preview';
 import GitHubCorners from '@uiw/react-github-corners';
+import '@wcj/dark-mode';
 import Logo from './logo.svg';
 import './App.css';
 import mdStr from '../README.md';
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App wmde-markdown-var">
+      <dark-mode light="Light" dark="Dart" style={{ position: 'fixed', left: 10, top: 8 }}></dark-mode>
       <GitHubCorners
         target="__blank"
         href="https://github.com/uiwjs/uiw-example-parcel"
