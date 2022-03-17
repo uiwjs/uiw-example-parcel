@@ -14,18 +14,18 @@
     "url": "https://github.com/uiwjs/uiw-example-parcel"
   },
   "devDependencies": {
-    "@parcel/transformer-less": "~2.3.2",
-    "@parcel/transformer-svg-react": "~2.3.2",
-    "@parcel/transformer-react-refresh-wrap": "~2.3.2",
-    "parcel-transformer-markdown": "~2.1.0",
-    "parcel": "~2.3.2"
+    "@parcel/transformer-less": "2.3.2",
+    "@parcel/transformer-svg-react": "2.3.2",
+    "@parcel/transformer-react-refresh-wrap": "2.3.2",
+    "parcel-transformer-markdown": "2.1.0",
+    "parcel": "2.3.2"
   },
   "dependencies": {
-    "@uiw/react-github-corners": "~1.5.3",
-    "@uiw/react-markdown-preview": "~4.0.3",
-    "@wcj/dark-mode": "~1.0.10",
-    "react": "~17.0.2",
-    "react-dom": "~17.0.2",
-    "uiw": "^4.14.1"
+    "@uiw/react-github-corners": "1.5.3",
+    "@uiw/react-markdown-preview": "4.0.4",
+    "@wcj/dark-mode": "1.0.12",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uiw": "4.14.2"
   }
 }
