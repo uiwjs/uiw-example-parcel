@@ -17,7 +17,7 @@
     "@parcel/transformer-less": "~2.3.2",
     "@parcel/transformer-svg-react": "~2.3.2",
     "@parcel/transformer-react-refresh-wrap": "~2.3.2",
-    "parcel-transformer-markdown": "~2.1.0",
+    "parcel-transformer-markdown": "~3.0.0",
     "parcel": "~2.3.2"
   },
   "dependencies": {
